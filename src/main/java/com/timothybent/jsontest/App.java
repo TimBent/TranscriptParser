@@ -21,7 +21,7 @@ public class App
 
     public static void main( String[] args ) throws FileNotFoundException {
         System.out.println( "Hello World!" );
-        PATH = "C:\\Users\\tim-b\\IdeaProjects\\TranscriptParser\\res\\testTranscript.json";
+        PATH = "res/testTranscript.json";
         file = new File(PATH);
         try {
             decentralizeWordFromFile();
