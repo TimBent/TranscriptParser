@@ -5,21 +5,44 @@ import com.timothybent.jsontest.Models.Result;
 import com.timothybent.jsontest.Models.Transcript;
 import com.timothybent.jsontest.Models.Words;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 /**
  * Hello world!
  *
  */
 public class App
 {
-    //public static String PATH;
+    public static String PATH;
     //public static Words words = new Words();
+    public static File file;
 
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ) throws FileNotFoundException {
         System.out.println( "Hello World!" );
-        decentralizeWords();
-        dectralizeAlternatives();
+        PATH = "C:\\Users\\tim-b\\IdeaProjects\\TranscriptParser\\res\\testTranscript.json";
+        file = new File(PATH);
+        try {
+            decentralizeWordFromFile();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        //decentralizeWords();
+        //dectralizeAlternatives();
         //decentralizeResults();
+    }
+
+    public static void decentralizeWordFromFile() throws FileNotFoundException {
+        Scanner scan = new Scanner(file);
+        String strang = new String();
+        while(scan.hasNext()){
+            strang += scan.nextLine();
+        }
+        scan.close();
+
+        Gson gson = new Gson();
+        Transcript transcript = gson.fromJson(strang, Transcript.class);
     }
 
     private static void decentralizeWords(){
