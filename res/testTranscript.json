@@ -1,0 +1,1753 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "send the flower to the car when you get back",
+          "confidence": 0.763741672039032,
+          "words": [
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 0,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 0,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "word": "send"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 0,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 0,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 900000000
+              },
+              "word": "the"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 0,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 900000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 1,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "word": "flower"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 1,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 1,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 500000000
+              },
+              "word": "to"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 1,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 500000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 1,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "word": "the"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 1,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 1,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "word": "car"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 1,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 2,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "word": "when"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 2,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 2,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "word": "you"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 2,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 2,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "word": "get"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 2,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 2,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "word": "back"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " not only do I get back at Jason response I send a file to Google Cloud Storage it extract the audio from that file turns into a flat file sings that in the storage then it transcribes the file from audio into text so it gives you a Json file an inside that Jason file it gives you the transcription that the each word in the transcription it gives you when the world started and when the word finished in milliseconds",
+          "confidence": 0.956902027130127,
+          "words": [
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 4,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 500000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 5,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 0
+              },
+              "word": "not"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 5,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 0
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 5,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "word": "only"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 5,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 5,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "word": "do"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 5,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 5,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 300000000
+              },
+              "word": "I"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 5,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 300000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 5,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "word": "get"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 5,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 5,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "word": "back"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 5,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 5,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "word": "at"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 5,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 6,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "word": "Jason"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 6,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 6,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "word": "response"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 6,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 7,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "word": "I"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 7,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 7,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "word": "send"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 7,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 7,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "word": "a"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 7,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 7,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "word": "file"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 7,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 8,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "word": "to"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 8,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 8,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "word": "Google"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 8,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 9,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "word": "Cloud"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 9,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 9,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 300000000
+              },
+              "word": "Storage"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 9,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 300000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 10,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "word": "it"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 10,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 10,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "word": "extract"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 10,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 10,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "word": "the"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 10,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 10,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "word": "audio"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 10,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 11,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "word": "from"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 11,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 11,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "word": "that"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 11,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 11,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "word": "file"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 11,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 12,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "word": "turns"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 12,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 12,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 500000000
+              },
+              "word": "into"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 12,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 500000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 12,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "word": "a"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 12,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 12,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 900000000
+              },
+              "word": "flat"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 12,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 900000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 13,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 300000000
+              },
+              "word": "file"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 13,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 300000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 14,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "word": "sings"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 14,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 14,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "word": "that"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 14,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 14,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 300000000
+              },
+              "word": "in"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 14,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 300000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 14,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "word": "the"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 14,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 14,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "word": "storage"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 14,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 15,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "word": "then"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 15,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 16,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "word": "it"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 16,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 16,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 900000000
+              },
+              "word": "transcribes"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 16,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 900000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 17,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 0
+              },
+              "word": "the"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 17,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 0
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 17,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "word": "file"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 17,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 18,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 0
+              },
+              "word": "from"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 18,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 0
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 19,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "word": "audio"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 19,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 19,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "word": "into"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 19,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 19,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 700000000
+              },
+              "word": "text"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 19,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 700000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 20,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "word": "so"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 20,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 21,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 0
+              },
+              "word": "it"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 21,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 0
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 21,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "word": "gives"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 21,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 21,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "word": "you"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 21,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 21,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 300000000
+              },
+              "word": "a"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 21,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 300000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 21,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 700000000
+              },
+              "word": "Json"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 21,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 700000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 21,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "word": "file"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 21,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 22,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "word": "an"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 22,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 22,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 700000000
+              },
+              "word": "inside"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 22,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 700000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 22,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "word": "that"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 22,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 23,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "word": "Jason"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 23,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 23,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 500000000
+              },
+              "word": "file"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 23,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 500000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 23,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 700000000
+              },
+              "word": "it"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 23,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 700000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 23,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 900000000
+              },
+              "word": "gives"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 23,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 900000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 24,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 0
+              },
+              "word": "you"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 24,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 0
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 24,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 0
+              },
+              "word": "the"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 24,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 0
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 24,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "word": "transcription"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 24,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 25,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 300000000
+              },
+              "word": "that"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 25,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 300000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 25,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "word": "the"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 25,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 25,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "word": "each"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 25,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 600000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 25,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 900000000
+              },
+              "word": "word"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 25,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 900000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 26,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 0
+              },
+              "word": "in"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 26,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 0
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 26,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "word": "the"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 26,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 26,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "word": "transcription"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 26,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 27,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "word": "it"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 27,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 27,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 300000000
+              },
+              "word": "gives"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 27,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 300000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 27,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 500000000
+              },
+              "word": "you"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 27,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 500000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 28,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 0
+              },
+              "word": "when"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 28,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 0
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 28,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "word": "the"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 28,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 28,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "word": "world"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 28,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 28,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "word": "started"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 28,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 800000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 29,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 0
+              },
+              "word": "and"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 29,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 0
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 29,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "word": "when"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 29,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 29,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "word": "the"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 29,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 200000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 29,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "word": "word"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 29,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 400000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 29,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 900000000
+              },
+              "word": "finished"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 29,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 900000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 30,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "word": "in"
+            },
+            {
+              "startTime": {
+                "seconds": {
+                  "low": 30,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 100000000
+              },
+              "endTime": {
+                "seconds": {
+                  "low": 30,
+                  "high": 0,
+                  "unsigned": false
+                },
+                "nanos": 300000000
+              },
+              "word": "milliseconds"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
