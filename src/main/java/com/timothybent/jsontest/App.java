@@ -11,16 +11,13 @@ import java.util.Scanner;
 
 /**
  * Created by Timothy Bent on 11/04/2018
- *
  */
-public class App
-{
+public class App {
     public static String PATH;
     //public static Words words = new Words();
     public static File file;
 
-    public static void main( String[] args ) throws FileNotFoundException {
-        System.out.println( "Hello World!" );
+    public static void main(String[] args) throws FileNotFoundException {
         PATH = "res/testTranscript.json";
         file = new File(PATH);
         try {
@@ -36,7 +33,7 @@ public class App
     public static void decentralizeWordFromFile() throws FileNotFoundException {
         Scanner scan = new Scanner(file);
         String strang = new String();
-        while(scan.hasNext()){
+        while (scan.hasNext()) {
             strang += scan.nextLine();
         }
         scan.close();
@@ -44,29 +41,26 @@ public class App
         Gson gson = new Gson();
         Transcript transcript = gson.fromJson(strang, Transcript.class);
 
-        System.out.println("transcript: " + transcript.results[0].alternatives[0].transcript);
-        System.out.println("confidence: " + transcript.results[0].alternatives[0].confidence);
-        System.out.println("word-count: " + transcript.results[0].alternatives[0].words.size());
+        for (int i = 0; i < transcript.results.length; i++) {
+            for (int j = 0; j < transcript.results[i].alternatives.length; j++) {
+                System.out.println("Result: " + i + " Alternative: " + j);
+                System.out.println("transcript: " + transcript.results[i].alternatives[j].transcript);
+                System.out.println("confidence: " + transcript.results[i].alternatives[j].confidence);
+                System.out.println("word-count: " + transcript.results[i].alternatives[j].words.size());
 
-        for(int i = 0; i < transcript.results[0].alternatives[0].words.size(); i++){
-            System.out.print("word: " + transcript.results[0].alternatives[0].words.get(i).word + ",");
-            System.out.print(" startTime: " + transcript.results[0].alternatives[0].words.get(i).startTime.nanos + ",");
-            System.out.println(" endTime: " + transcript.results[0].alternatives[0].words.get(i).endTime.nanos + ";");
+                for (Words word : transcript.results[i].alternatives[j].words) {
+                    System.out.print("word: " + word.word + ",");
+                    System.out.print(" startTime: " + word.startTime.nanos + ",");
+                    System.out.println(" endTime: " + word.endTime.nanos + ";");
+                }
+            }
         }
-
-        for(Words word : transcript.results[0].alternatives[0].words) {
-            System.out.print("Second loop");
-            System.out.print("word: " + word.word + ",");
-            System.out.print(" startTime: " + word.startTime.nanos + ",");
-            System.out.println(" endTime: " + word.endTime.nanos + ";");
-        }
-
 
 
     }
 
-    private static void decentralizeWords(){
-        String wordsJson =           "            {\n" +
+    private static void decentralizeWords() {
+        String wordsJson = "            {\n" +
                 "              \"startTime\": {\n" +
                 "                \"seconds\": {\n" +
                 "                  \"low\": 0,\n" +
@@ -92,7 +86,7 @@ public class App
         //System.out.println(words.endTime.nanos +" "+ words.word +" "+ words.startTime.nanos);
     }
 
-    public static void dectralizeAlternatives(){
+    public static void dectralizeAlternatives() {
         String script = "{\n" +
                 "  \"results\": [\n" +
                 "    {\n" +
@@ -1851,7 +1845,7 @@ public class App
         Transcript trasnscript = gson.fromJson(script, Transcript.class);
     }
 
-    public static void decentralizeResults(){
+    public static void decentralizeResults() {
         String results = "[{\n" +
                 "      \"alternatives\": [\n" +
                 "        {\n" +
