@@ -1,7 +1,7 @@
 package com.timothybent.jsontest.Models;
 
 public class Words {
-    private StartTime startTime;
+    public StartTime startTime;
     public EndTime endTime;
     public String word;
 

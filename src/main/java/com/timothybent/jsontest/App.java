@@ -10,7 +10,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 /**
- * Hello world!
+ * Created by Timothy Bent on 11/04/2018
  *
  */
 public class App
@@ -43,6 +43,26 @@ public class App
 
         Gson gson = new Gson();
         Transcript transcript = gson.fromJson(strang, Transcript.class);
+
+        System.out.println("transcript: " + transcript.results[0].alternatives[0].transcript);
+        System.out.println("confidence: " + transcript.results[0].alternatives[0].confidence);
+        System.out.println("word-count: " + transcript.results[0].alternatives[0].words.size());
+
+        for(int i = 0; i < transcript.results[0].alternatives[0].words.size(); i++){
+            System.out.print("word: " + transcript.results[0].alternatives[0].words.get(i).word + ",");
+            System.out.print(" startTime: " + transcript.results[0].alternatives[0].words.get(i).startTime.nanos + ",");
+            System.out.println(" endTime: " + transcript.results[0].alternatives[0].words.get(i).endTime.nanos + ";");
+        }
+
+        for(Words word : transcript.results[0].alternatives[0].words) {
+            System.out.print("Second loop");
+            System.out.print("word: " + word.word + ",");
+            System.out.print(" startTime: " + word.startTime.nanos + ",");
+            System.out.println(" endTime: " + word.endTime.nanos + ";");
+        }
+
+
+
     }
 
     private static void decentralizeWords(){
